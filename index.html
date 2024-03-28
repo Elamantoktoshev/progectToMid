@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/book.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio of Elaman</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">portfolio</a>
+            <div class="nav-links">
+                <a href="#welcome-section" class="fill">home</a>
+                <a href="#projects" class="fill">projects</a>
+                <a href="#videos" class="fill">videos</a>
+                <a href="#contact" class="fill">contact</a>
+                <div class="toggle-menu scale-effect">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="toggle-menu scale-effect">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Landing Section -->
+    <section class="landing" id="welcome-section">
+        <div class="container">
+            <div class="text">
+                <h1>welcome to my portfolio.</h1>
+                <span>I'm Elaman, ront end developer which is cool.!</span>
+                <p>I have made up this portfolio for puplishing my projects into it so feel free to explorer it and don't
+                    forget to give me your feedbacks. your feedbacks will make this portfolio much more and more better.!
+                </p>
+                <div class="btns-group">
+                    <a href="#projects" class="btn btn-primary">let's explorer</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
+                    alt="Coding Illsturation">
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title fill">Projects</h2>
+        <div class="container">
+            <div class="projects-content">
+                <div class="project">
+                    <div class="project-image">
+                        <img src="./img/ubadab.png"
+                            alt="Project Image">
+                    </div>
+                    <div class="project-details">
+                        <h3 class="project-tile">Ubada Batken</h3>
+                        <p class="project-description">This is web site control promises Goverment. And also you can see information about city Madina.</p>
+                        <div class="btns-group">
+                            <a href="https://ubada-batken.com/" class="btn btn-primary">view project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="./img/azykta.png"
+                            alt="Project Image">
+                    </div>
+                    <div class="project-details">
+                        <h3 class="project-tile">Az ukta</h3>
+                        <p class="project-description">In there you can find useful information about programming, islam and online books.</p>
+                        <div class="btns-group">
+                            <a href="https://azukta.edu.kg/" class="btn btn-primary">view project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="./img/bemode.png"
+                            alt="Project Image">
+                    </div>
+                    <div class="project-details">
+                        <h3 class="project-tile">Bemode</h3>
+                        <p class="project-description">Online shop. We will export to Russia this products. </p>
+                        <div class="btns-group">
+                            <a href="https://bemode.kg/" class="btn btn-primary">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#projects" target="_blank" class="more-projects btn btn-primary"
+                id="profile-link">show more <i class="fas fa-chevron-right"></i></a>
+        </div>
+    </section>
+    <!-- Videos Section -->
+    <section class="videos" id="videos">
+        <h2 class="section-title fill">Videos</h2>
+        <div class="container">
+            <iframe width="100%" height="400" class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+            
+        </div>
+        </div>
+        <a href="#videos" target="_blank" class="more-projects btn btn-primary" id="profile-link">show more <i
+                class="fas fa-chevron-right"></i></a>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title fill">Contact</h2>
+        <p class="description">send me your feedbacks here and your opinions about this portfolio and remember to be <span
+                class="special">nice</span> <i class="fas fa-heart"></i>.</p>
+        <div class="container">
+            <form action="email: nyc.elaman@gmail.com" enctype="multipart/form-data" method="post">
+                <div class="field">
+                    <label for="first-name">first name</label>
+                    <input type="text" id="first-name" placeholder="First name" required>
+                </div>
+                <div class="field">
+                    <label for="last-name">last name</label>
+                    <input type="text" id="last-name" placeholder="Last name">
+                </div>
+                <div class="field">
+                    <label for="email-name">email</label>
+                    <input type="text" id="email-name" placeholder="Email" required>
+                </div>
+                <textarea name="user-opinion" placeholder="Your Message..."></textarea>
+                <input type="submit" value="Send Feedback" class="btn btn-primary">
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>It is your life, Plese live how do you want! <a
+                    href="https://www.instagram.com/aiyldyk_programmist/">My instagram</a> accaunt.</p>
+            <p>&copy; <a href="#welcome-section" target="_blank">Back to top</a> & <a
+                    href="nyc.elaman@gmail.com">nyc.elaman@gmail.com</a> Feel free!</p>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
